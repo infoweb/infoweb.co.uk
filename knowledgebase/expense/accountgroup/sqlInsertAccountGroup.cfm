@@ -1,0 +1,1 @@
+<cfset strValueList="TRIM('#attributes.strAccountGroup#')"><cfinclude template="#fusebox.rootPath#common/query/sqlInsertRecord.cfm">

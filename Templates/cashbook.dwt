@@ -1,0 +1,16 @@
+<html>
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>CashBook - </title>
+<!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/cashbook/stylesheet.css" type="text/css">
+<script src="/cashbook/javascript.js" language="JavaScript">
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" onLoad="placeFocus()">
+<!-- #BeginEditable "MainCell" -->
+<!-- #EndEditable -->
+</body>
+</html>

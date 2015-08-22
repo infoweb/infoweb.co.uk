@@ -1,0 +1,125 @@
+<html><!-- #BeginTemplate "/templates/development.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>infoWEB - development &gt; philosophy</title>
+<!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#0066CC" text="#000000" leftmargin="4" topmargin="4" marginwidth="4" marginheight="4" link="#0066CC" vlink="#0066CC" alink="#0066CC" onLoad="MM_preloadImages('../../image/navbar/consult.gif','../../image/navbar/design_f3.gif','../../image/navbar/design_f2.gif','../../image/navbar/design_f4.gif','../../image/navbar/development_f3.gif','../../image/navbar/development_f2.gif','../../image/navbar/development_f4.gif','../../image/navbar/hosting_f3.gif','../../image/navbar/hosting_f2.gif','../../image/navbar/hosting_f4.gif','../../image/navbar/consult_f3.gif','../../image/navbar/consult_f2.gif','../../image/navbar/consult_f4.gif','../../image/navbar/contact_f3.gif','../../image/navbar/contact_f2.gif','../../image/navbar/contact_f4.gif','../../image/navbar/design.gif','../../image/navbar/development.gif','../../image/navbar/philosophy.gif','../../image/navbar/philosophy_f2.gif','../../image/navbar/philosophy_f4.gif','../../image/navbar/example_f3.gif','../../image/navbar/example_f2.gif','../../image/navbar/example_f4.gif')">
+<table width="578" border="0" cellspacing="2" cellpadding="2" bgcolor="#FFFFFF" align="center">
+  <tr> 
+		<td>
+			<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="574">
+				<!-- fwtable fwsrc="submenu.png" fwbase="submenu.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
+				<tr> 
+					<td rowspan="3"><a href="/"><img name="infoweb" src="../../image/navbar/infoweb.gif" width="100" height="82" border="0" alt="infoWEB"></a></td>
+					<td rowspan="3" bgcolor="#ffffff"><img src="../../image/navbar/spacer.gif" width="2" height="82" border="0"></td>
+					<td><a href="/design/" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','design','../../image/navbar/design_f2.gif','../../image/navbar/design_f4.gif',1)"  onClick="MM_nbGroup('down','navbar1','design','../../image/navbar/design_f3.gif',1)" ></a><a href="/design/" onClick="MM_nbGroup('down','navbar1','design','../../image/navbar/design_f3.gif',1)" onMouseOver="MM_nbGroup('over','design','../../image/navbar/design_f2.gif','../../image/navbar/design_f4.gif',1)" onMouseOut="MM_nbGroup('out')"><img name="design" src="../../image/navbar/design.gif" border="0" alt="design" width="78" height="40"></a></td>
+					<td><a href="/development/" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','development','../../image/navbar/development_f2.gif','../../image/navbar/development_f4.gif',1)"  onClick="MM_nbGroup('down','navbar1','development','../../image/navbar/development_f3.gif',1)" ></a><a href="/development/" onClick="MM_nbGroup('down','navbar1','development','../../image/navbar/development_f3.gif',1)" onMouseOver="MM_nbGroup('over','development','../../image/navbar/development_f2.gif','../../image/navbar/development_f4.gif',1)" onMouseOut="MM_nbGroup('out')"><img name="development" src="../../image/navbar/development_f3.gif" border="0" alt="developement" onload="MM_nbGroup('init','navbar1','development','../../image/navbar/development.gif',1)"></a></td>
+					<td><a href="/hosting/" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','hosting','../../image/navbar/hosting_f2.gif','../../image/navbar/hosting_f4.gif',1)"  onClick="MM_nbGroup('down','navbar1','hosting','../../image/navbar/hosting_f3.gif',1)" ><img name="hosting" src="../../image/navbar/hosting.gif" width="85" height="40" border="0" alt="hosting"></a></td>
+					<td><a href="/consult/" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','consult','../../image/navbar/consult_f2.gif','../../image/navbar/consult_f4.gif',1)"  onClick="MM_nbGroup('down','navbar1','consult','../../image/navbar/consult_f3.gif',1)" ></a><a href="/consult/" onClick="MM_nbGroup('down','navbar1','consult','../../image/navbar/consult_f3.gif',1)" onMouseOver="MM_nbGroup('over','consult','../../image/navbar/consult_f2.gif','../../image/navbar/consult_f4.gif',1)" onMouseOut="MM_nbGroup('out')"><img name="consult" src="../../image/navbar/consult.gif" border="0" alt="consult" width="84" height="40"></a></td>
+					<td><a href="/contact/" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','contact','../../image/navbar/contact_f2.gif','../../image/navbar/contact_f4.gif',1)"  onClick="MM_nbGroup('down','navbar1','contact','../../image/navbar/contact_f3.gif',1)" ><img name="contact" src="../../image/navbar/contact.gif" width="89" height="40" border="0" alt="contact"></a></td>
+				</tr>
+				<tr> 
+					<td colspan="5" bgcolor="#ffffff"><img src="../../image/navbar/spacer.gif" width="472" height="2" border="0"></td>
+				</tr>
+				<tr> 
+					<td colspan="5"><!-- #BeginEditable "submenu" -->
+						<table bgcolor="#0066cc" border="0" cellpadding="0" cellspacing="0" width="472">
+							<!-- fwtable fwsrc="devmenu.png" fwbase="devmenu.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
+							<tr> 
+								<td><a href="/development/philosophy/" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','philosophy','../../image/navbar/philosophy_f2.gif','../../image/navbar/philosophy_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','philosophy','../../image/navbar/philosophy_f3.gif',1);" ></a><a href="/development/philosophy/" onClick="MM_nbGroup('down','navbar1','philosophy','../../image/navbar/philosophy_f3.gif',1)" onMouseOver="MM_nbGroup('over','philosophy','../../image/navbar/philosophy_f2.gif','../../image/navbar/philosophy_f4.gif',1)" onMouseOut="MM_nbGroup('out')"><a href="/development/philosophy/" onClick="MM_nbGroup('down','navbar1','philosophy','../../image/navbar/philosophy_f3.gif',1)" onMouseOver="MM_nbGroup('over','philosophy','../../image/navbar/philosophy_f2.gif','../../image/navbar/philosophy_f4.gif',1)" onMouseOut="MM_nbGroup('out')"><img name="philosophy" src="../../image/navbar/philosophy_f3.gif" border="0" alt="philosophy" onload="MM_nbGroup('init','navbar1','philosophy','../../image/navbar/philosophy.gif',1)"></a></a></td>
+								<td><a href="/development/example/" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','example','../../image/navbar/example_f2.gif','../../image/navbar/example_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','example','../../image/navbar/example_f3.gif',1);" ></a><a href="/development/example/" onClick="MM_nbGroup('down','navbar1','example','../../image/navbar/example_f3.gif',1)" onMouseOver="MM_nbGroup('over','example','../../image/navbar/example_f2.gif','../../image/navbar/example_f4.gif',1)" onMouseOut="MM_nbGroup('out')"><img name="example" src="../../image/navbar/example.gif" border="0" alt="example" width="96" height="40"></a></td>
+								<td bgcolor="#0066cc"><img src="../../image/navbar/spacer.gif" width="260" height="40" border="0" name="undefined_2"></td>
+							</tr>
+						</table>
+						<!-- #EndEditable --></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr> 
+		<td><!-- #BeginEditable "maincell" -->
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Lorem 
+				ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+				nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+				Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
+				suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis 
+				autem vel eum iriure dolor in hendrerit in vulputate velit esse 
+				molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+				at vero eros et accumsan et iusto odio dignissim qui blandit praesent 
+				luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed 
+				diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
+				erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci 
+				tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo 
+				consequat.</font></p>
+			<!-- #EndEditable --></td>
+	</tr>
+	<tr>
+		<td align="center"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><br>
+	  </font><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="/"><font size="1">home</font></a><font size="1"> 
+	  | <a href="/design/">design</a> | <a href="/development/">development</a> 
+	  | <a href="/hosting/">hosting</a> | <a href="/consult/">consult</a> | <a href="/contact/">contact</a><br>
+	  </font></font><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&copy; 
+	  <a href="mailto:info@infoweb.co.uk">infoWEB</a> 1995 - 
+	  <script language="JavaScript">
+		var dateNow = new Date()
+		document.write(dateNow.getFullYear())
+		</script>
+	  </font></td>
+	</tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

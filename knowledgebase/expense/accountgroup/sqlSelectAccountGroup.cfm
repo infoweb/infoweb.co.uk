@@ -1,0 +1,1 @@
+<cfset strColumnList="pkiAccountGroupID,#strColumnList#"><cfparam name="strRecordsetName" default="rstAccountGroupList" type="string"><cfinclude template="#fusebox.rootPath#common/query/sqlSelectRecord.cfm">
