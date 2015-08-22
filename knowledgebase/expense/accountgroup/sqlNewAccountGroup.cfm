@@ -1,1 +1,0 @@
-<cfset strColumnList="pkiAccountGroupID,#strColumnList#"><cfset strValueList="0|#strValueList#"><cfparam name="strRecordsetName" default="rstAccountGroup" type="string"><cf_querysim>	<cfoutput>		#strRecordsetName#		#strColumnList#		#strValueList#	</cfoutput></cf_querysim>

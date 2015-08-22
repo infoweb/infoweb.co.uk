@@ -1,8 +1,0 @@
-td.update {
-	cursor: hand;
-	cursor: pointer;
-}
-
-td.nonbreak {
-	white-space: nowrap;
-}

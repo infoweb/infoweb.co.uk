@@ -1,1 +1,0 @@
-<cfparam name="strValueList" default="strAccountGroup=TRIM('#attributes.strAccountGroup#')" type="string"><cfparam name="strWhereString" default="pkiAccountGroupID=#attributes.pkiAccountGroupID#" type="string"><cfinclude template="#fusebox.rootPath#common/query/sqlUpdateRecord.cfm">

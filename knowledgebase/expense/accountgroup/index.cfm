@@ -1,1 +1,0 @@
-<cflocation url="../index.cfm?fuseaction=accountGroup." addtoken="no">
